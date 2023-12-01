@@ -1,0 +1,16 @@
+<h3>Agregar (Agregar-Cliente Component)  </h3>
+<hr />
+<p>{{ nuevo.nombre }}</p>
+<form (submit)="agregar()">
+  <input
+    type="text"
+    placeholder="Nombre"
+    name="nombre"
+    [(ngModel)]="nuevo.nombre"
+  />
+  <input 
+   type="number" 
+   placeholder="Credito"
+    />
+  <button type="submit">Agregar</button>
+</form>

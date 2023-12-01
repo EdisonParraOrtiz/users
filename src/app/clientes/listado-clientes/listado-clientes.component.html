@@ -1,0 +1,10 @@
+<h3> Clientes (Listado-Cliente Component)   </h3>
+<hr>
+<ul>
+    <ul>
+        <li *ngFor="let cliente of clientes"> 
+        {{cliente.nombre }}
+         {{cliente.credito | number }}
+    </li>
+    </ul>
+</ul>
